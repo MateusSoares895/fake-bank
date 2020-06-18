@@ -3,7 +3,7 @@ import cors from 'cors'
 import routes from './routes'
 
 export default class App {
-  private express: express.Application
+  public express: express.Application
   constructor() {
     this.express = express()
     this.middlewares()
